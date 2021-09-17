@@ -1,15 +1,16 @@
 .countries{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 15px;
+    grid-gap: 25px;
 }
 .country img{
-    width: 200px;
+    width: 280px;
+   
 }
 .country {
     text-align: center;
     border: 2px solid #828282;
     background: #ffe5e5;
-    padding: 10px;
+    padding: 10px 0;
     border-radius: 15px;
 }
